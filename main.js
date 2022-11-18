@@ -27,7 +27,7 @@ gltfLoader.setDRACOLoader(dracoLoader)
 //Model
 let model
 gltfLoader.load(
-  'scenes/scene-nogr-full.glb',
+  './scenes/scene-nogr-full.glb',
   (gltf) =>{
     console.log(gltf)
         model = gltf.scene.children[0]
