@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline:none;
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    border:0;
+    cursor: pointer;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+body{
+    font-family: var(--font-style);
+    font-size: 1rem;
+    background-color: var(--background-color);
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+canvas{
+    position: fixed;
+    top:0;
+    left:0
+}
+
+main{
+    position: absolute;
+    width: 100%;
+}

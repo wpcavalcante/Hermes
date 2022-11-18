@@ -1,0 +1,92 @@
+.info{
+    margin-top: 7.5rem;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72rem;
+        .info-accordion{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        .cel-info{
+            h2{
+                font-size: 5rem;
+                font-weight: 300;
+                cursor: pointer;
+                text-transform: uppercase;
+                &:hover{
+                    color: var(--text-color3);
+                }
+            }
+            h2:not(:last-child){
+                margin-bottom: 2rem;
+            }
+            
+            p{
+                display: none;
+                margin-top: 2.1rem;
+                margin-bottom: 2.1rem;
+                font-size:2.2rem;
+                max-width: 56.6rem;
+                line-height: 4.6rem;
+                cursor: pointer;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .active{
+            p{
+                display: flex;
+                animation: fadeIn .8s forwards;
+            }
+        }
+        }
+        .colors{
+            .btn{
+                width: 5.2rem;
+                height: 5.2rem;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .btn:not(:last-child){
+                margin-bottom: 1.3rem;
+            }
+            .red{
+                background-color: var(--btn-color1);
+            }
+            .blue{
+                background-color: var(--btn-color2);
+            }
+            .black{
+                background-color: var(--btn-color3);
+            }
+            .green{
+                background-color: var(--btn-color4);
+            }
+            .pink{
+                background-color: var(--btn-color5);
+            }
+            .yellow{
+                background-color: var(--btn-color6);
+            }
+        }
+
+    }
+}
+
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-2rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
