@@ -18,6 +18,7 @@ Hermes é uma exibição em 3D de um Smarthphone e suas funcionalidades. Utilize
 - ThreeJS
 - Javascript ES6
 - SASS
+- Blender
 
 
 
